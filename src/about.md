@@ -1,7 +1,7 @@
 ---
 title: About
 description: The description of our about page.
-layout: about.hbs
+layout: home.hbs
 menu-order: 2
 ---
 

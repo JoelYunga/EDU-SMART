@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: Get in touch!
-layout: contact.hbs
+layout: home.hbs
 menu-order: 3
 ---
 

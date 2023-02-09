@@ -1,7 +1,7 @@
 ---
 title: Blog
 description: A collection of my fantastic thoughts.
-layout: blog.hbs
+layout: home.hbs
 menu-order: 4
 ---
 
