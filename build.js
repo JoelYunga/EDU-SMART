@@ -53,7 +53,7 @@ metalsmith(__dirname)
     .use(layouts({
         engine: 'handlebars',
         directory: 'layouts',
-        default: 'default.hbs',
+        default: 'home.hbs',
         partials: 'layouts/partials'
     }))
     .use(sitemap({
