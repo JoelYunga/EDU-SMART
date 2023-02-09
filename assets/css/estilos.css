@@ -1,0 +1,51 @@
+footer {
+    background-color: #353a3f;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+#awards {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+#awards img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity:  .8;
+    transition: .5s ease;
+}
+
+#awards img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#awards2 {
+    display: flex;
+    width: 900px;
+    height: 430px;
+}
+
+#awards2 img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity:  .8;
+    transition: .5s ease;
+}
+
+#awards2 img:hover {
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
